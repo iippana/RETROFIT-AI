@@ -1,0 +1,15 @@
+asset_id,alert_time_utc,event_class,fault_type,confidence,evidence,recommended_action
+PUMP-10,2025-07-22T10:15:00Z,SENSOR,SENSOR_DRIFT,0.94,"suction_pressure_kpa gradual sensor drift (z=+5.0, step_ratio=0.21)",Cross-check drifting suction_pressure_kpa sensor and recalibrate.
+PUMP-10,2025-07-23T10:58:00Z,MACHINE,SUCTION_STRAINER_CLOGGING,0.94,"Suction strainer pressure loss (z_ps=-5.2, z_pd=+1.9)",Inspect and clean suction strainer basket.
+PUMP-10,2025-07-25T20:01:00Z,SENSOR,COMMUNICATION_LOSS,0.98,Gateway telemetry outage (rows < 30),Check gateway power and network link.
+PUMP-11,2026-04-21T21:09:00Z,MACHINE,DISCHARGE_RESTRICTION,0.95,"Discharge restriction signature (z_pd=+0.0, z_i=-4.0, z_pw=-5.6)",Inspect discharge valve and heat exchanger.
+PUMP-11,2026-04-22T12:07:00Z,SENSOR,SENSOR_DRIFT,0.94,"discharge_pressure_kpa gradual sensor drift (z=+17.0, step_ratio=0.64)",Cross-check drifting discharge_pressure_kpa sensor and recalibrate.
+PUMP-12,2025-11-26T04:12:00Z,MACHINE,BEARING_WEAR,0.95,"Bearing crest factor elevated (CF=3.72, z_c=+7.8)",Schedule bearing inspection and lubrication.
+PUMP-12,2025-11-26T04:33:00Z,MACHINE,SUCTION_STRAINER_CLOGGING,0.94,"Suction strainer pressure loss (z_ps=-4.2, z_pd=-2.1)",Inspect and clean suction strainer basket.
+PUMP-12,2025-11-27T04:45:00Z,MACHINE,CAVITATION,0.97,"Suction pressure below vapour margin (Ps=-58.7 kPa, z_a=+131.0, z_pd=-50.3)",Reduce speed or increase suction head; clean strainer.
+PUMP-12,2025-11-27T08:03:00Z,MACHINE,CAVITATION,0.97,"Suction pressure below vapour margin (Ps=-61.5 kPa, z_a=+154.8, z_pd=-64.6)",Reduce speed or increase suction head; clean strainer.
+PUMP-12,2025-11-27T10:39:00Z,MACHINE,CAVITATION,0.97,"Suction pressure below vapour margin (Ps=-61.8 kPa, z_a=+162.9, z_pd=-79.5)",Reduce speed or increase suction head; clean strainer.
+PUMP-12,2025-11-27T18:20:00Z,MACHINE,CAVITATION,0.97,"Suction pressure below vapour margin (Ps=-67.8 kPa, z_a=+155.1, z_pd=-112.1)",Reduce speed or increase suction head; clean strainer.
+PUMP-12,2025-11-27T18:41:00Z,MACHINE,AIR_ENTRAINMENT,0.95,"Gas/air ingress head & power drop (z_pd=-28.5, z_pw=-11.8, static_head=1.25m)",Raise suction tank level and vent pump casing.
+PUMP-12,2025-11-27T20:51:00Z,MACHINE,CAVITATION,0.97,"Suction pressure below vapour margin (Ps=-64.2 kPa, z_a=+149.0, z_pd=-62.5)",Reduce speed or increase suction head; clean strainer.
+PUMP-12,2025-11-28T03:06:00Z,MACHINE,CAVITATION,0.97,"Suction pressure below vapour margin (Ps=-68.0 kPa, z_a=+155.0, z_pd=-125.0)",Reduce speed or increase suction head; clean strainer.

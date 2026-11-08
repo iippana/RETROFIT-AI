@@ -1,0 +1,16 @@
+asset_id,alert_time_utc,event_class,fault_type,confidence,evidence,recommended_action
+PUMP-10,2025-07-25T20:03:00Z,SENSOR,COMMUNICATION_LOSS,0.6244220595969706,B3 IsolationForest: missing rows,Check gateway / network; data gap.
+PUMP-12,2025-11-24T07:43:00Z,MACHINE,UNKNOWN,0.99,B3 IsolationForest: bearing_temp_c z=-7.9,Inspect pump.
+PUMP-12,2025-11-25T13:56:00Z,MACHINE,UNKNOWN,0.99,B3 IsolationForest: bearing_temp_c z=-6.9,Inspect pump.
+PUMP-12,2025-11-26T07:09:00Z,MACHINE,UNKNOWN,0.99,"B3 IsolationForest: vibration_crest_factor z=+11.4, bearing_temp_c z=-8.5",Inspect pump.
+PUMP-12,2025-11-26T15:45:00Z,MACHINE,SUCTION_STRAINER_CLOGGING,0.99,"B3 IsolationForest: vibration_crest_factor z=+19.8, suction_pressure_kpa z=-13.6, bearing_temp_c z=-6.5",Inspect / clean suction strainer.
+PUMP-12,2025-11-26T17:43:00Z,SENSOR,SENSOR_CALIBRATION_SHIFT,0.99,B3 IsolationForest: bearing_temp_c deviates alone (z=-6.7),Verify bearing_temp_c against a reference gauge.
+PUMP-12,2025-11-27T01:01:00Z,MACHINE,BEARING_WEAR,0.99,"B3 IsolationForest: vibration_crest_factor z=+26.9, suction_pressure_kpa z=-25.1, vibration_accel_rms_g z=+7.1",Inspect pump bearing; plan replacement; check lubrication.
+PUMP-12,2025-11-27T14:55:00Z,MACHINE,SUCTION_STRAINER_CLOGGING,0.99,"B3 IsolationForest: vibration_crest_factor z=+34.8, suction_pressure_kpa z=-15.2, bearing_temp_c z=-6.9",Inspect / clean suction strainer.
+PUMP-12,2025-11-27T18:24:00Z,MACHINE,BEARING_WEAR,0.99,"B3 IsolationForest: vibration_accel_rms_g z=+147.0, vibration_crest_factor z=+52.5, suction_pressure_kpa z=-34.0",Inspect pump bearing; plan replacement; check lubrication.
+PUMP-12,2025-11-28T11:21:00Z,MACHINE,UNKNOWN,0.99,"B3 IsolationForest: vibration_crest_factor z=+45.3, bearing_temp_c z=-8.0",Inspect pump.
+PUMP-12,2025-11-29T00:18:00Z,MACHINE,UNKNOWN,0.99,"B3 IsolationForest: vibration_crest_factor z=+47.8, bearing_temp_c z=-7.8",Inspect pump.
+PUMP-12,2025-11-29T00:57:00Z,MACHINE,BEARING_WEAR,0.99,"B3 IsolationForest: vibration_crest_factor z=+48.5, vibration_accel_rms_g z=+4.4",Inspect pump bearing; plan replacement; check lubrication.
+PUMP-12,2025-11-29T15:30:00Z,MACHINE,BEARING_WEAR,0.99,"B3 IsolationForest: vibration_crest_factor z=+47.4, vibration_accel_rms_g z=+7.6, bearing_temp_c z=-6.4",Inspect pump bearing; plan replacement; check lubrication.
+PUMP-12,2025-11-30T05:52:00Z,MACHINE,BEARING_WEAR,0.99,"B3 IsolationForest: vibration_crest_factor z=+45.0, vibration_accel_rms_g z=+13.9, bearing_temp_c z=-6.5",Inspect pump bearing; plan replacement; check lubrication.
+PUMP-12,2025-11-30T19:56:00Z,MACHINE,BEARING_WEAR,0.99,"B3 IsolationForest: vibration_crest_factor z=+37.4, vibration_accel_rms_g z=+28.4, bearing_temp_c z=-7.2",Inspect pump bearing; plan replacement; check lubrication.

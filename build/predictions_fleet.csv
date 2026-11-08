@@ -1,0 +1,51 @@
+asset_id,alert_time_utc,event_class,fault_type,confidence,evidence,recommended_action
+PUMP-01,2025-08-12T16:31:00Z,MACHINE,SUCTION_STRAINER_CLOGGING,0.94,"Suction strainer pressure loss (z_ps=-4.2, z_pd=+0.2)",Inspect and clean suction strainer basket.
+PUMP-01,2025-08-14T13:37:00Z,SENSOR,COMMUNICATION_LOSS,0.98,Gateway telemetry outage (rows < 30),Check gateway power and network link.
+PUMP-01,2025-08-16T11:06:00Z,MACHINE,SUCTION_STRAINER_CLOGGING,0.94,"Suction strainer pressure loss (z_ps=-4.5, z_pd=-4.5)",Inspect and clean suction strainer basket.
+PUMP-01,2025-08-16T20:09:00Z,SENSOR,SENSOR_STUCK,0.96,bearing_temp_c variance flatlined while running,Inspect frozen transmitter bearing_temp_c.
+PUMP-02,2025-12-01T00:24:00Z,MACHINE,BEARING_WEAR,0.95,"Bearing crest factor elevated (CF=5.48, z_c=-1.0)",Schedule bearing inspection and lubrication.
+PUMP-02,2025-12-02T08:28:00Z,SENSOR,SENSOR_DRIFT,0.94,"suction_pressure_kpa gradual sensor drift (z=+4.9, step_ratio=0.13)",Cross-check drifting suction_pressure_kpa sensor and recalibrate.
+PUMP-02,2025-12-07T05:58:00Z,MACHINE,MISALIGNMENT,0.94,"Vibration RMS step (z_v=+5.9, step=+6.3, v2=1.37)",Check coupling laser alignment.
+PUMP-03,2026-03-02T00:24:00Z,MACHINE,IMPELLER_WEAR,0.92,Discharge head 293.5 kPa is 7.4% below design curve (316.9 kPa),Schedule hydraulic performance test and inspect impeller.
+PUMP-03,2026-03-04T00:01:00Z,MACHINE,DISCHARGE_RESTRICTION,0.95,"Discharge restriction signature (z_pd=+8.7, z_i=-14.1, z_pw=+0.0)",Inspect discharge valve and heat exchanger.
+PUMP-03,2026-03-06T06:50:00Z,SENSOR,SENSOR_CALIBRATION_SHIFT,0.94,"discharge_pressure_kpa step calibration offset (z=+7.7, step_ratio=1.32)",Zero-check and recalibrate discharge_pressure_kpa transmitter.
+PUMP-03,2026-03-08T11:24:00Z,SENSOR,SENSOR_CALIBRATION_SHIFT,0.94,"motor_current_a step calibration offset (z=-4.8, step_ratio=0.83)",Zero-check and recalibrate motor_current_a transmitter.
+PUMP-04,2025-06-16T00:24:00Z,MACHINE,BEARING_WEAR,0.95,"Bearing crest factor elevated (CF=5.60, z_c=-0.3)",Schedule bearing inspection and lubrication.
+PUMP-04,2025-06-17T10:09:00Z,MACHINE,IMBALANCE,0.94,"Gradual 1x rotor vibration ramp (z_v=+5.4, z_a=+6.7)",Inspect impeller for fouling or imbalance.
+PUMP-04,2025-06-20T15:17:00Z,MACHINE,DISCHARGE_RESTRICTION,0.95,"Discharge restriction signature (z_pd=-0.1, z_i=-4.8, z_pw=-5.4)",Inspect discharge valve and heat exchanger.
+PUMP-04,2025-06-20T21:00:00Z,MACHINE,AIR_ENTRAINMENT,0.95,"Gas/air ingress head & power drop (z_pd=-3.2, z_pw=-8.9, static_head=2.24m)",Raise suction tank level and vent pump casing.
+PUMP-05,2026-01-19T00:24:00Z,MACHINE,IMPELLER_WEAR,0.92,Discharge head 327.7 kPa is 8.2% below design curve (356.8 kPa),Schedule hydraulic performance test and inspect impeller.
+PUMP-05,2026-01-21T09:25:00Z,SENSOR,SENSOR_STUCK,0.96,discharge_pressure_kpa variance flatlined while running,Inspect frozen transmitter discharge_pressure_kpa.
+PUMP-06,2025-10-06T09:01:00Z,MACHINE,MISALIGNMENT,0.94,"Vibration RMS step (z_v=+9.0, step=+36.0, v2=1.99)",Check coupling laser alignment.
+PUMP-06,2025-10-09T00:50:00Z,MACHINE,SUCTION_STRAINER_CLOGGING,0.94,"Suction strainer pressure loss (z_ps=-12.0, z_pd=-6.0)",Inspect and clean suction strainer basket.
+PUMP-06,2025-10-09T21:45:00Z,MACHINE,CAVITATION,0.97,"Suction pressure below vapour margin (Ps=-51.3 kPa, z_a=+19.6, z_pd=-38.6)",Reduce speed or increase suction head; clean strainer.
+PUMP-06,2025-10-10T05:58:00Z,MACHINE,CAVITATION,0.97,"Suction pressure below vapour margin (Ps=-61.1 kPa, z_a=+106.2, z_pd=-73.3)",Reduce speed or increase suction head; clean strainer.
+PUMP-06,2025-10-10T09:06:00Z,MACHINE,CAVITATION,0.97,"Suction pressure below vapour margin (Ps=-60.1 kPa, z_a=+104.0, z_pd=-84.8)",Reduce speed or increase suction head; clean strainer.
+PUMP-06,2025-10-10T17:32:00Z,MACHINE,CAVITATION,0.97,"Suction pressure below vapour margin (Ps=-66.6 kPa, z_a=+100.3, z_pd=-107.1)",Reduce speed or increase suction head; clean strainer.
+PUMP-06,2025-10-11T15:05:00Z,SENSOR,SENSOR_CALIBRATION_SHIFT,0.94,"bearing_temp_c step calibration offset (z=+7.9, step_ratio=2.56)",Zero-check and recalibrate bearing_temp_c transmitter.
+PUMP-07,2025-05-15T04:01:00Z,SENSOR,SENSOR_CALIBRATION_SHIFT,0.94,"flow_m3_h step calibration offset (z=-60.4, step_ratio=1.01)",Zero-check and recalibrate flow_m3_h transmitter.
+PUMP-07,2025-05-16T00:04:00Z,MACHINE,BEARING_WEAR,0.95,"Bearing crest factor elevated (CF=3.62, z_c=+7.3)",Schedule bearing inspection and lubrication.
+PUMP-07,2025-05-17T08:05:00Z,MACHINE,AIR_ENTRAINMENT,0.95,"Gas/air ingress head & power drop (z_pd=-3.5, z_pw=-4.3, static_head=3.00m)",Raise suction tank level and vent pump casing.
+PUMP-08,2025-09-09T15:39:00Z,MACHINE,BEARING_WEAR,0.95,"Bearing crest factor elevated (CF=4.29, z_c=+7.9)",Schedule bearing inspection and lubrication.
+PUMP-08,2025-09-10T01:07:00Z,MACHINE,SUCTION_STRAINER_CLOGGING,0.94,"Suction strainer pressure loss (z_ps=-4.8, z_pd=-2.3)",Inspect and clean suction strainer basket.
+PUMP-08,2025-09-13T00:00:00Z,SENSOR,COMMUNICATION_LOSS,0.98,Gateway telemetry outage (rows < 30),Check gateway power and network link.
+PUMP-08,2025-09-13T21:02:00Z,SENSOR,SENSOR_NOISE_SPIKES,0.95,"discharge_pressure_kpa noise std spike (zs=+34.2, ratio=3.9x)",Inspect discharge_pressure_kpa loop shielding and terminations.
+PUMP-09,2026-02-09T19:16:00Z,SENSOR,SENSOR_DRIFT,0.94,"motor_current_a gradual sensor drift (z=+7.0, step_ratio=0.37)",Cross-check drifting motor_current_a sensor and recalibrate.
+PUMP-09,2026-02-10T06:25:00Z,MACHINE,MISALIGNMENT,0.94,"Vibration RMS step (z_v=+18.1, step=+44.2, v2=2.21)",Check coupling laser alignment.
+PUMP-09,2026-02-11T22:27:00Z,SENSOR,SENSOR_STUCK,0.96,bearing_temp_c variance flatlined while running,Inspect frozen transmitter bearing_temp_c.
+PUMP-09,2026-02-14T01:29:00Z,MACHINE,DISCHARGE_RESTRICTION,0.95,"Discharge restriction signature (z_pd=+6.6, z_i=-9.4, z_pw=-8.9)",Inspect discharge valve and heat exchanger.
+PUMP-09,2026-02-15T07:55:00Z,MACHINE,AIR_ENTRAINMENT,0.95,"Gas/air ingress head & power drop (z_pd=-5.4, z_pw=-22.6, static_head=0.75m)",Raise suction tank level and vent pump casing.
+PUMP-10,2025-07-22T10:15:00Z,SENSOR,SENSOR_DRIFT,0.94,"suction_pressure_kpa gradual sensor drift (z=+5.0, step_ratio=0.21)",Cross-check drifting suction_pressure_kpa sensor and recalibrate.
+PUMP-10,2025-07-23T10:58:00Z,MACHINE,SUCTION_STRAINER_CLOGGING,0.94,"Suction strainer pressure loss (z_ps=-5.2, z_pd=+1.9)",Inspect and clean suction strainer basket.
+PUMP-10,2025-07-25T20:01:00Z,SENSOR,COMMUNICATION_LOSS,0.98,Gateway telemetry outage (rows < 30),Check gateway power and network link.
+PUMP-11,2026-04-21T21:09:00Z,MACHINE,DISCHARGE_RESTRICTION,0.95,"Discharge restriction signature (z_pd=+0.0, z_i=-4.0, z_pw=-5.6)",Inspect discharge valve and heat exchanger.
+PUMP-11,2026-04-22T12:07:00Z,SENSOR,SENSOR_DRIFT,0.94,"discharge_pressure_kpa gradual sensor drift (z=+17.0, step_ratio=0.64)",Cross-check drifting discharge_pressure_kpa sensor and recalibrate.
+PUMP-12,2025-11-26T04:12:00Z,MACHINE,BEARING_WEAR,0.95,"Bearing crest factor elevated (CF=3.72, z_c=+7.8)",Schedule bearing inspection and lubrication.
+PUMP-12,2025-11-26T04:33:00Z,MACHINE,SUCTION_STRAINER_CLOGGING,0.94,"Suction strainer pressure loss (z_ps=-4.2, z_pd=-2.1)",Inspect and clean suction strainer basket.
+PUMP-12,2025-11-27T04:45:00Z,MACHINE,CAVITATION,0.97,"Suction pressure below vapour margin (Ps=-58.7 kPa, z_a=+131.0, z_pd=-50.3)",Reduce speed or increase suction head; clean strainer.
+PUMP-12,2025-11-27T08:03:00Z,MACHINE,CAVITATION,0.97,"Suction pressure below vapour margin (Ps=-61.5 kPa, z_a=+154.8, z_pd=-64.6)",Reduce speed or increase suction head; clean strainer.
+PUMP-12,2025-11-27T10:39:00Z,MACHINE,CAVITATION,0.97,"Suction pressure below vapour margin (Ps=-61.8 kPa, z_a=+162.9, z_pd=-79.5)",Reduce speed or increase suction head; clean strainer.
+PUMP-12,2025-11-27T18:20:00Z,MACHINE,CAVITATION,0.97,"Suction pressure below vapour margin (Ps=-67.8 kPa, z_a=+155.1, z_pd=-112.1)",Reduce speed or increase suction head; clean strainer.
+PUMP-12,2025-11-27T18:41:00Z,MACHINE,AIR_ENTRAINMENT,0.95,"Gas/air ingress head & power drop (z_pd=-28.5, z_pw=-11.8, static_head=1.25m)",Raise suction tank level and vent pump casing.
+PUMP-12,2025-11-27T20:51:00Z,MACHINE,CAVITATION,0.97,"Suction pressure below vapour margin (Ps=-64.2 kPa, z_a=+149.0, z_pd=-62.5)",Reduce speed or increase suction head; clean strainer.
+PUMP-12,2025-11-28T03:06:00Z,MACHINE,CAVITATION,0.97,"Suction pressure below vapour margin (Ps=-68.0 kPa, z_a=+155.0, z_pd=-125.0)",Reduce speed or increase suction head; clean strainer.

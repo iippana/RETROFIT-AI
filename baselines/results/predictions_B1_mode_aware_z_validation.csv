@@ -1,0 +1,12 @@
+asset_id,alert_time_utc,event_class,fault_type,confidence,evidence,recommended_action
+PUMP-08,2025-09-10T18:14:00Z,MACHINE,SUCTION_STRAINER_CLOGGING,0.5231497287750244,B1 mode-aware z: suction_pressure_kpa z=-8.4,Inspect / clean suction strainer.
+PUMP-08,2025-09-13T00:02:00Z,SENSOR,COMMUNICATION_LOSS,0.05,B1 mode-aware z: missing rows,Check gateway / network; data gap.
+PUMP-09,2026-02-09T12:41:00Z,SENSOR,SENSOR_CALIBRATION_SHIFT,0.8875608444213867,B1 mode-aware z: motor_winding_temp_c deviates alone (z=-14.2),Verify motor_winding_temp_c against a reference gauge.
+PUMP-09,2026-02-10T06:23:00Z,MACHINE,IMBALANCE,0.99,"B1 mode-aware z: vibration_rms_mm_s z=+20.2, motor_winding_temp_c z=-14.6",Inspect impeller for fouling / damage; balance.
+PUMP-09,2026-02-11T06:23:00Z,MACHINE,IMBALANCE,0.99,B1 mode-aware z: vibration_rms_mm_s z=+24.4,Inspect impeller for fouling / damage; balance.
+PUMP-09,2026-02-12T00:15:00Z,SENSOR,SENSOR_STUCK,0.99,B1 mode-aware z: bearing_temp_c frozen,Check transmitter bearing_temp_c.
+PUMP-09,2026-02-13T00:15:00Z,MACHINE,IMBALANCE,0.99,B1 mode-aware z: vibration_rms_mm_s z=+25.5,Inspect impeller for fouling / damage; balance.
+PUMP-09,2026-02-13T06:02:00Z,SENSOR,SENSOR_CALIBRATION_SHIFT,0.9645046591758728,B1 mode-aware z: motor_winding_temp_c deviates alone (z=-15.4),Verify motor_winding_temp_c against a reference gauge.
+PUMP-09,2026-02-14T01:16:00Z,MACHINE,DISCHARGE_RESTRICTION,0.7210941314697266,B1 mode-aware z: flow_m3_h z=-11.5,Check discharge valves and heat-exchanger fouling.
+PUMP-09,2026-02-15T01:16:00Z,MACHINE,DISCHARGE_RESTRICTION,0.99,"B1 mode-aware z: flow_m3_h z=-23.2, motor_power_kw z=-14.6, discharge_pressure_kpa z=+8.4",Check discharge valves and heat-exchanger fouling.
+PUMP-09,2026-02-15T13:16:00Z,MACHINE,SUCTION_STRAINER_CLOGGING,0.99,"B1 mode-aware z: flow_m3_h z=-27.4, motor_power_kw z=-27.0, motor_current_a z=-10.2",Inspect / clean suction strainer.

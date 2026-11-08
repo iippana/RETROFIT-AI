@@ -1,0 +1,17 @@
+asset_id,alert_time_utc,event_class,fault_type,confidence,evidence,recommended_action
+PUMP-08,2025-09-10T01:13:00Z,MACHINE,UNKNOWN,0.99,B2 CUSUM: ,Inspect pump.
+PUMP-08,2025-09-10T08:04:00Z,MACHINE,SUCTION_STRAINER_CLOGGING,0.99,B2 CUSUM: suction_pressure_kpa z=-4.2,Inspect / clean suction strainer.
+PUMP-08,2025-09-10T20:23:00Z,MACHINE,SUCTION_STRAINER_CLOGGING,0.99,B2 CUSUM: suction_pressure_kpa z=-8.6,Inspect / clean suction strainer.
+PUMP-08,2025-09-11T03:41:00Z,SENSOR,SENSOR_CALIBRATION_SHIFT,0.99,B2 CUSUM: fluid_temp_c deviates alone (z=-4.3),Verify fluid_temp_c against a reference gauge.
+PUMP-08,2025-09-11T08:27:00Z,MACHINE,SUCTION_STRAINER_CLOGGING,0.99,"B2 CUSUM: suction_pressure_kpa z=-12.4, discharge_pressure_kpa z=-4.7",Inspect / clean suction strainer.
+PUMP-08,2025-09-11T15:21:00Z,MACHINE,UNKNOWN,0.99,B2 CUSUM: vibration_crest_factor z=+16.1,Inspect pump.
+PUMP-08,2025-09-12T23:53:00Z,SENSOR,COMMUNICATION_LOSS,0.05,B2 CUSUM: missing rows,Check gateway / network; data gap.
+PUMP-08,2025-09-13T05:56:00Z,MACHINE,UNKNOWN,0.99,B2 CUSUM: vibration_crest_factor z=+18.0,Inspect pump.
+PUMP-08,2025-09-13T14:56:00Z,MACHINE,BEARING_WEAR,0.99,"B2 CUSUM: vibration_crest_factor z=+17.0, fluid_temp_c z=-4.9, vibration_accel_rms_g z=+4.5",Inspect pump bearing; plan replacement; check lubrication.
+PUMP-08,2025-09-13T17:26:00Z,SENSOR,SENSOR_CALIBRATION_SHIFT,0.99,B2 CUSUM: fluid_temp_c deviates alone (z=-6.0),Verify fluid_temp_c against a reference gauge.
+PUMP-08,2025-09-13T18:20:00Z,MACHINE,UNKNOWN,0.99,B2 CUSUM: fluid_temp_c z=-7.0,Inspect pump.
+PUMP-08,2025-09-14T07:06:00Z,SENSOR,SENSOR_CALIBRATION_SHIFT,0.99,B2 CUSUM: fluid_temp_c deviates alone (z=-4.3),Verify fluid_temp_c against a reference gauge.
+PUMP-08,2025-09-14T07:53:00Z,MACHINE,UNKNOWN,0.99,B2 CUSUM: fluid_temp_c z=-5.2,Inspect pump.
+PUMP-08,2025-09-14T10:26:00Z,MACHINE,BEARING_WEAR,0.99,"B2 CUSUM: vibration_crest_factor z=+16.7, vibration_accel_rms_g z=+9.5",Inspect pump bearing; plan replacement; check lubrication.
+PUMP-08,2025-09-14T20:02:00Z,MACHINE,UNKNOWN,0.99,B2 CUSUM: fluid_temp_c z=-4.5,Inspect pump.
+PUMP-08,2025-09-14T23:51:00Z,MACHINE,BEARING_WEAR,0.99,"B2 CUSUM: vibration_accel_rms_g z=+14.0, vibration_crest_factor z=+13.6",Inspect pump bearing; plan replacement; check lubrication.

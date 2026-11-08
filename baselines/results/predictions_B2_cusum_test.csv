@@ -1,0 +1,55 @@
+asset_id,alert_time_utc,event_class,fault_type,confidence,evidence,recommended_action
+PUMP-10,2025-07-22T04:04:00Z,MACHINE,UNKNOWN,0.99,B2 CUSUM: ,Inspect pump.
+PUMP-10,2025-07-22T10:03:00Z,SENSOR,SENSOR_CALIBRATION_SHIFT,0.99,B2 CUSUM: suction_pressure_kpa deviates alone (z=4.7),Verify suction_pressure_kpa against a reference gauge.
+PUMP-10,2025-07-22T16:38:00Z,MACHINE,UNKNOWN,0.99,B2 CUSUM: suction_pressure_kpa z=+4.8,Inspect pump.
+PUMP-10,2025-07-23T10:22:00Z,MACHINE,UNKNOWN,0.99,B2 CUSUM: ,Inspect pump.
+PUMP-10,2025-07-23T10:59:00Z,MACHINE,SUCTION_STRAINER_CLOGGING,0.99,"B2 CUSUM: motor_speed_rpm z=+5.9, motor_power_kw z=+5.1, suction_pressure_kpa z=-4.7",Inspect / clean suction strainer.
+PUMP-10,2025-07-23T21:41:00Z,MACHINE,IMPELLER_WEAR,0.99,"B2 CUSUM: discharge_pressure_kpa z=-7.1, motor_speed_rpm z=-4.9, motor_power_kw z=-4.8",Performance test; inspect impeller / wear rings.
+PUMP-10,2025-07-23T23:47:00Z,MACHINE,UNKNOWN,0.99,B2 CUSUM: ,Inspect pump.
+PUMP-10,2025-07-24T01:06:00Z,MACHINE,SUCTION_STRAINER_CLOGGING,0.99,"B2 CUSUM: suction_pressure_kpa z=-5.8, motor_speed_rpm z=+5.5",Inspect / clean suction strainer.
+PUMP-10,2025-07-24T01:36:00Z,SENSOR,SENSOR_CALIBRATION_SHIFT,0.99,B2 CUSUM: fluid_temp_c deviates alone (z=-4.0),Verify fluid_temp_c against a reference gauge.
+PUMP-10,2025-07-24T14:47:00Z,MACHINE,SUCTION_STRAINER_CLOGGING,0.99,"B2 CUSUM: suction_pressure_kpa z=-7.4, discharge_pressure_kpa z=-6.0",Inspect / clean suction strainer.
+PUMP-10,2025-07-25T00:38:00Z,MACHINE,UNKNOWN,0.99,B2 CUSUM: fluid_temp_c z=-4.6,Inspect pump.
+PUMP-10,2025-07-25T19:54:00Z,SENSOR,COMMUNICATION_LOSS,0.05,B2 CUSUM: missing rows,Check gateway / network; data gap.
+PUMP-10,2025-07-27T06:45:00Z,MACHINE,UNKNOWN,0.99,B2 CUSUM: fluid_temp_c z=-4.2,Inspect pump.
+PUMP-10,2025-07-27T19:10:00Z,MACHINE,UNKNOWN,0.99,B2 CUSUM: fluid_temp_c z=-4.3,Inspect pump.
+PUMP-11,2026-04-20T08:27:00Z,MACHINE,SUCTION_STRAINER_CLOGGING,0.99,"B2 CUSUM: motor_current_a z=+7.3, motor_power_kw z=+6.7, motor_speed_rpm z=+6.5",Inspect / clean suction strainer.
+PUMP-11,2026-04-21T06:48:00Z,MACHINE,SUCTION_STRAINER_CLOGGING,0.99,"B2 CUSUM: motor_current_a z=+7.0, motor_power_kw z=+6.5, motor_speed_rpm z=+6.3",Inspect / clean suction strainer.
+PUMP-11,2026-04-21T18:49:00Z,MACHINE,SUCTION_STRAINER_CLOGGING,0.99,"B2 CUSUM: motor_current_a z=+6.1, motor_power_kw z=+6.0, motor_speed_rpm z=+5.7",Inspect / clean suction strainer.
+PUMP-11,2026-04-22T07:13:00Z,MACHINE,DISCHARGE_RESTRICTION,0.99,B2 CUSUM: discharge_pressure_kpa z=+9.0,Check discharge valves and heat-exchanger fouling.
+PUMP-11,2026-04-22T09:37:00Z,MACHINE,SUCTION_STRAINER_CLOGGING,0.99,B2 CUSUM: motor_speed_rpm z=+4.9,Inspect / clean suction strainer.
+PUMP-11,2026-04-22T19:54:00Z,MACHINE,DISCHARGE_RESTRICTION,0.99,"B2 CUSUM: discharge_pressure_kpa z=+14.4, motor_speed_rpm z=+4.8",Check discharge valves and heat-exchanger fouling.
+PUMP-11,2026-04-22T21:41:00Z,MACHINE,SUCTION_STRAINER_CLOGGING,0.99,"B2 CUSUM: discharge_pressure_kpa z=+29.1, motor_speed_rpm z=+12.1, motor_power_kw z=+4.2",Inspect / clean suction strainer.
+PUMP-11,2026-04-23T00:09:00Z,MACHINE,UNKNOWN,0.99,B2 CUSUM: ,Inspect pump.
+PUMP-11,2026-04-23T08:49:00Z,MACHINE,DISCHARGE_RESTRICTION,0.99,"B2 CUSUM: discharge_pressure_kpa z=+13.7, motor_power_kw z=-6.3, motor_current_a z=-5.6",Check discharge valves and heat-exchanger fouling.
+PUMP-11,2026-04-23T09:46:00Z,MACHINE,SUCTION_STRAINER_CLOGGING,0.99,"B2 CUSUM: discharge_pressure_kpa z=+26.7, motor_speed_rpm z=+9.6",Inspect / clean suction strainer.
+PUMP-11,2026-04-23T20:51:00Z,MACHINE,DISCHARGE_RESTRICTION,0.99,"B2 CUSUM: discharge_pressure_kpa z=+11.6, motor_power_kw z=-7.5, motor_current_a z=-7.0",Check discharge valves and heat-exchanger fouling.
+PUMP-11,2026-04-24T00:00:00Z,MACHINE,UNKNOWN,0.99,"B2 CUSUM: motor_speed_rpm z=-8.8, motor_power_kw z=-8.0, motor_current_a z=-6.6",Inspect pump.
+PUMP-11,2026-04-24T06:15:00Z,MACHINE,SUCTION_STRAINER_CLOGGING,0.99,"B2 CUSUM: discharge_pressure_kpa z=+32.7, motor_speed_rpm z=+13.4",Inspect / clean suction strainer.
+PUMP-11,2026-04-24T11:21:00Z,MACHINE,DISCHARGE_RESTRICTION,0.99,"B2 CUSUM: discharge_pressure_kpa z=+19.7, motor_speed_rpm z=+8.4",Check discharge valves and heat-exchanger fouling.
+PUMP-11,2026-04-25T03:35:00Z,MACHINE,UNKNOWN,0.99,B2 CUSUM: discharge_pressure_kpa z=+10.7,Inspect pump.
+PUMP-11,2026-04-25T03:49:00Z,MACHINE,DISCHARGE_RESTRICTION,0.99,B2 CUSUM: discharge_pressure_kpa z=+11.4,Check discharge valves and heat-exchanger fouling.
+PUMP-11,2026-04-25T16:15:00Z,MACHINE,DISCHARGE_RESTRICTION,0.99,B2 CUSUM: discharge_pressure_kpa z=+12.5,Check discharge valves and heat-exchanger fouling.
+PUMP-11,2026-04-25T18:03:00Z,MACHINE,UNKNOWN,0.99,B2 CUSUM: discharge_pressure_kpa z=+12.5,Inspect pump.
+PUMP-11,2026-04-26T04:25:00Z,MACHINE,DISCHARGE_RESTRICTION,0.99,B2 CUSUM: discharge_pressure_kpa z=+11.6,Check discharge valves and heat-exchanger fouling.
+PUMP-11,2026-04-26T09:21:00Z,MACHINE,UNKNOWN,0.99,B2 CUSUM: discharge_pressure_kpa z=+12.2,Inspect pump.
+PUMP-12,2025-11-24T07:53:00Z,MACHINE,UNKNOWN,0.99,B2 CUSUM: bearing_temp_c z=-4.9,Inspect pump.
+PUMP-12,2025-11-25T19:13:00Z,MACHINE,UNKNOWN,0.99,B2 CUSUM: ,Inspect pump.
+PUMP-12,2025-11-25T21:27:00Z,MACHINE,SUCTION_STRAINER_CLOGGING,0.99,B2 CUSUM: suction_pressure_kpa z=-4.1,Inspect / clean suction strainer.
+PUMP-12,2025-11-26T07:27:00Z,MACHINE,UNKNOWN,0.99,"B2 CUSUM: vibration_crest_factor z=+12.4, bearing_temp_c z=-4.1",Inspect pump.
+PUMP-12,2025-11-26T12:27:00Z,SENSOR,SENSOR_CALIBRATION_SHIFT,0.99,B2 CUSUM: suction_pressure_kpa deviates alone (z=-5.8),Verify suction_pressure_kpa against a reference gauge.
+PUMP-12,2025-11-26T12:36:00Z,SENSOR,SENSOR_NOISE_SPIKES,0.99,B2 CUSUM: bearing_temp_c deviates alone (z=-4.8),Verify bearing_temp_c against a reference gauge.
+PUMP-12,2025-11-26T15:43:00Z,MACHINE,SUCTION_STRAINER_CLOGGING,0.99,"B2 CUSUM: vibration_crest_factor z=+18.5, suction_pressure_kpa z=-12.9, bearing_temp_c z=-7.3",Inspect / clean suction strainer.
+PUMP-12,2025-11-27T01:01:00Z,MACHINE,BEARING_WEAR,0.99,"B2 CUSUM: vibration_crest_factor z=+26.9, suction_pressure_kpa z=-25.1, vibration_accel_rms_g z=+7.1",Inspect pump bearing; plan replacement; check lubrication.
+PUMP-12,2025-11-27T05:45:00Z,MACHINE,SUCTION_STRAINER_CLOGGING,0.99,"B2 CUSUM: vibration_crest_factor z=+29.5, suction_pressure_kpa z=-16.9",Inspect / clean suction strainer.
+PUMP-12,2025-11-27T18:15:00Z,MACHINE,BEARING_WEAR,0.99,"B2 CUSUM: vibration_accel_rms_g z=+155.4, vibration_crest_factor z=+51.1, suction_pressure_kpa z=-34.1",Inspect pump bearing; plan replacement; check lubrication.
+PUMP-12,2025-11-27T23:19:00Z,MACHINE,SUCTION_STRAINER_CLOGGING,0.99,"B2 CUSUM: vibration_crest_factor z=+41.3, suction_pressure_kpa z=-18.1, bearing_temp_c z=-11.0",Inspect / clean suction strainer.
+PUMP-12,2025-11-28T08:17:00Z,MACHINE,UNKNOWN,0.99,"B2 CUSUM: vibration_crest_factor z=+45.3, bearing_temp_c z=-10.8",Inspect pump.
+PUMP-12,2025-11-28T14:07:00Z,SENSOR,SENSOR_CALIBRATION_SHIFT,0.99,B2 CUSUM: bearing_temp_c deviates alone (z=-4.4),Verify bearing_temp_c against a reference gauge.
+PUMP-12,2025-11-28T16:20:00Z,MACHINE,BEARING_WEAR,0.99,"B2 CUSUM: vibration_crest_factor z=+45.7, vibration_accel_rms_g z=+4.0",Inspect pump bearing; plan replacement; check lubrication.
+PUMP-12,2025-11-28T20:19:00Z,MACHINE,UNKNOWN,0.99,B2 CUSUM: vibration_crest_factor z=+48.3,Inspect pump.
+PUMP-12,2025-11-29T04:23:00Z,MACHINE,BEARING_WEAR,0.99,"B2 CUSUM: vibration_crest_factor z=+48.6, vibration_accel_rms_g z=+7.0, bearing_temp_c z=-6.5",Inspect pump bearing; plan replacement; check lubrication.
+PUMP-12,2025-11-29T08:59:00Z,MACHINE,UNKNOWN,0.99,B2 CUSUM: vibration_crest_factor z=+47.4,Inspect pump.
+PUMP-12,2025-11-29T16:26:00Z,MACHINE,BEARING_WEAR,0.99,"B2 CUSUM: vibration_crest_factor z=+49.1, vibration_accel_rms_g z=+9.0",Inspect pump bearing; plan replacement; check lubrication.
+PUMP-12,2025-11-30T04:28:00Z,MACHINE,BEARING_WEAR,0.99,"B2 CUSUM: vibration_crest_factor z=+45.8, vibration_accel_rms_g z=+12.8",Inspect pump bearing; plan replacement; check lubrication.
+PUMP-12,2025-11-30T16:31:00Z,MACHINE,BEARING_WEAR,0.99,"B2 CUSUM: vibration_crest_factor z=+40.9, vibration_accel_rms_g z=+21.6",Inspect pump bearing; plan replacement; check lubrication.

@@ -1,0 +1,10 @@
+asset_id,alert_time_utc,event_class,fault_type,confidence,evidence,recommended_action
+PUMP-08,2025-09-09T15:39:00Z,MACHINE,BEARING_WEAR,0.95,"Bearing crest factor elevated (CF=4.29, z_c=+7.9)",Schedule bearing inspection and lubrication.
+PUMP-08,2025-09-10T01:07:00Z,MACHINE,SUCTION_STRAINER_CLOGGING,0.94,"Suction strainer pressure loss (z_ps=-4.8, z_pd=-2.3)",Inspect and clean suction strainer basket.
+PUMP-08,2025-09-13T00:00:00Z,SENSOR,COMMUNICATION_LOSS,0.98,Gateway telemetry outage (rows < 30),Check gateway power and network link.
+PUMP-08,2025-09-13T21:02:00Z,SENSOR,SENSOR_NOISE_SPIKES,0.95,"discharge_pressure_kpa noise std spike (zs=+34.2, ratio=3.9x)",Inspect discharge_pressure_kpa loop shielding and terminations.
+PUMP-09,2026-02-09T19:16:00Z,SENSOR,SENSOR_DRIFT,0.94,"motor_current_a gradual sensor drift (z=+7.0, step_ratio=0.37)",Cross-check drifting motor_current_a sensor and recalibrate.
+PUMP-09,2026-02-10T06:25:00Z,MACHINE,MISALIGNMENT,0.94,"Vibration RMS step (z_v=+18.1, step=+44.2, v2=2.21)",Check coupling laser alignment.
+PUMP-09,2026-02-11T22:27:00Z,SENSOR,SENSOR_STUCK,0.96,bearing_temp_c variance flatlined while running,Inspect frozen transmitter bearing_temp_c.
+PUMP-09,2026-02-14T01:29:00Z,MACHINE,DISCHARGE_RESTRICTION,0.95,"Discharge restriction signature (z_pd=+6.6, z_i=-9.4, z_pw=-8.9)",Inspect discharge valve and heat exchanger.
+PUMP-09,2026-02-15T07:55:00Z,MACHINE,AIR_ENTRAINMENT,0.95,"Gas/air ingress head & power drop (z_pd=-5.4, z_pw=-22.6, static_head=0.75m)",Raise suction tank level and vent pump casing.

@@ -1,0 +1,17 @@
+asset_id,alert_time_utc,event_class,fault_type,confidence,evidence,recommended_action
+PUMP-08,2025-09-13T00:02:00Z,SENSOR,COMMUNICATION_LOSS,0.6244220595969706,B3 IsolationForest: missing rows,Check gateway / network; data gap.
+PUMP-09,2026-02-10T06:23:00Z,MACHINE,IMBALANCE,0.99,"B3 IsolationForest: vibration_rms_mm_s z=+20.2, motor_winding_temp_c z=-14.6, vibration_accel_rms_g z=+6.1",Inspect impeller for fouling / damage; balance.
+PUMP-09,2026-02-10T13:18:00Z,MACHINE,MISALIGNMENT,0.99,"B3 IsolationForest: vibration_rms_mm_s z=+17.3, vibration_accel_rms_g z=+4.6, motor_current_a z=+4.4",Check coupling alignment.
+PUMP-09,2026-02-10T14:18:00Z,MACHINE,BEARING_WEAR,0.99,"B3 IsolationForest: vibration_rms_mm_s z=+17.7, vibration_accel_rms_g z=+5.1",Inspect pump bearing; plan replacement; check lubrication.
+PUMP-09,2026-02-10T19:13:00Z,MACHINE,IMBALANCE,0.99,"B3 IsolationForest: vibration_rms_mm_s z=+22.4, vibration_accel_rms_g z=+6.9, motor_current_a z=+4.1",Inspect impeller for fouling / damage; balance.
+PUMP-09,2026-02-11T06:10:00Z,MACHINE,BEARING_WEAR,0.99,"B3 IsolationForest: vibration_rms_mm_s z=+19.9, vibration_accel_rms_g z=+5.3, motor_current_a z=+4.9",Inspect pump bearing; plan replacement; check lubrication.
+PUMP-09,2026-02-11T07:24:00Z,MACHINE,IMBALANCE,0.99,"B3 IsolationForest: vibration_rms_mm_s z=+21.4, vibration_accel_rms_g z=+6.2, motor_current_a z=+5.2",Inspect impeller for fouling / damage; balance.
+PUMP-09,2026-02-11T13:33:00Z,MACHINE,MISALIGNMENT,0.99,"B3 IsolationForest: vibration_rms_mm_s z=+20.1, vibration_accel_rms_g z=+5.1",Check coupling alignment.
+PUMP-09,2026-02-11T22:25:00Z,SENSOR,SENSOR_STUCK,0.99,B3 IsolationForest: bearing_temp_c frozen,Check transmitter bearing_temp_c.
+PUMP-09,2026-02-12T12:15:00Z,SENSOR,SENSOR_STUCK,0.99,B3 IsolationForest: bearing_temp_c frozen,Check transmitter bearing_temp_c.
+PUMP-09,2026-02-12T19:36:00Z,MACHINE,BEARING_WEAR,0.99,"B3 IsolationForest: vibration_rms_mm_s z=+28.1, vibration_accel_rms_g z=+8.2",Inspect pump bearing; plan replacement; check lubrication.
+PUMP-09,2026-02-12T20:22:00Z,MACHINE,IMBALANCE,0.99,"B3 IsolationForest: vibration_rms_mm_s z=+26.5, vibration_accel_rms_g z=+7.3",Inspect impeller for fouling / damage; balance.
+PUMP-09,2026-02-14T01:42:00Z,MACHINE,DISCHARGE_RESTRICTION,0.99,"B3 IsolationForest: flow_m3_h z=-17.6, motor_power_kw z=-11.2, discharge_pressure_kpa z=+5.7",Check discharge valves and heat-exchanger fouling.
+PUMP-09,2026-02-14T14:30:00Z,MACHINE,DISCHARGE_RESTRICTION,0.99,"B3 IsolationForest: flow_m3_h z=-22.8, motor_power_kw z=-14.2, discharge_pressure_kpa z=+7.9",Check discharge valves and heat-exchanger fouling.
+PUMP-09,2026-02-15T03:10:00Z,MACHINE,DISCHARGE_RESTRICTION,0.99,"B3 IsolationForest: flow_m3_h z=-22.9, motor_power_kw z=-14.5, discharge_pressure_kpa z=+9.2",Check discharge valves and heat-exchanger fouling.
+PUMP-09,2026-02-15T17:59:00Z,MACHINE,DISCHARGE_RESTRICTION,0.99,"B3 IsolationForest: flow_m3_h z=-23.3, motor_power_kw z=-13.8, discharge_pressure_kpa z=+8.6",Check discharge valves and heat-exchanger fouling.

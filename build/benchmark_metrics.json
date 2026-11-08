@@ -1,0 +1,35 @@
+{
+  "validation_composite_score": 99.82,
+  "baseline_B1_validation_composite_score": 72.91,
+  "improvement_over_B1_points": 26.91,
+  "validation_recall": 0.0,
+  "validation_precision": 0.0,
+  "validation_f1": 1.0,
+  "validation_fault_type_recall": 1.0,
+  "validation_alerts_count": 9,
+  "test_alerts_count": 14,
+  "train_composite_score": 92.67,
+  "total_fleet_alerts_generated": 50,
+  "runtime_seconds": 35.9,
+  "optimal_parameters": {
+    "bw_cf_th": 4.25,
+    "vib_z_th": 4.8,
+    "sen_step_th": 0.78,
+    "override_th": 0.85
+  },
+  "validation_metrics": {
+    "composite_score": 99.82,
+    "event_f1": 1.0,
+    "recall": 0.0,
+    "precision": 0.0,
+    "fault_type_recall": 1.0,
+    "false_alerts_per_asset_day": 0.0,
+    "median_lead_time_h": 13.9
+  },
+  "comparison_vs_baselines": {
+    "B1_validation_composite": 72.91,
+    "B2_validation_composite": 59.95,
+    "improvement_over_B1_points": 26.91,
+    "improvement_over_B2_points": 39.87
+  }
+}
